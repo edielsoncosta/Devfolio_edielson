@@ -13,7 +13,7 @@ header{
 header,
 #minhafoto,
 img{
-    border: solid white;
+    border: solid aliceblue;
     color: rgb(46, 223, 46);
     background-color: aliceblue;
 }
@@ -89,7 +89,7 @@ strong{
 }
 
 #redes{
-    background: white;
+    background: aliceblue;
 }
 #redes{
     display: flex;

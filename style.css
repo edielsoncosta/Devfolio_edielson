@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black ;
+    color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header,
+#minhafoto,
+img{
+    border: solid white;
+    color: rgb(46, 223, 46);
+    background-color: aliceblue;
+}
+
+a{
+    background-color: aliceblue;
+}
+
+ul{
+    margin-top: 40px;
+    background-color: aliceblue;
+}
+
+ul a li{
+    display: inline;
+    margin-right: 40px;
+    background-color:aliceblue ;
+    color: rgb(46, 223, 46);
+}
+
+ul a{
+    text-decoration: none;
+}
+
+img{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: solid black;
+    border-radius: 60px;
+}
+h2{
+    background-color: aliceblue;
+    color: black;
+    margin-left: 60px;
+}
+
+#nome{
+    background-color: aliceblue;
+}
+
+.sobre{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about ol li{
+    text-decoration: dashed;
+}
+
+#frase p{
+    color: black;
+    background-color: aliceblue ;
+    margin-top: 120px;
+}
+
+#frase{
+    background-color: aliceblue;
+}
+
+strong{
+    background-color: aliceblue;
+    color: black;
+}
+
+.Projetos{
+    text-align: center;
+}
+
+#redes{
+    background: white;
+}
+#redes{
+    display: flex;
+    justify-content: space-around;
+}
+
+#redes a img{
+    display: block;
+}
+#redes img{
+    width: 50px;
+    border: solid;
+}
+
+a{
+    color: black;
+}
+
+#mex a:hover{
+    color: green;
+    text-decoration: none;
+}
+
+.flex a{
+    justify-content: space-around;
+}
+
+#mex{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+#mex a{
+    display: block;
+}
+
+form h1{
+    margin-left: 20px;
+}
+
+.formulario input{
+    display: block;
+    margin-top: 9px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+textarea{
+    display: block;
+    resize: none;
+}
+
+button{
+    margin-top: 5px;
+    margin-left: 80px;
+    width: 80px;
+    height: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Bungee', cursive;
+    text-decoration: none;
+}

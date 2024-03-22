@@ -2,87 +2,93 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site pessoal</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Pathway+Extreme:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Portfolio Edielson Costa</title>
 </head>
 <body>
-    <header>
-        <div id="minhafoto">
-            <img src="./imagens/eu.jpg.jpeg" alt="minha foto de perfil">
-        </div>
-        <div id="frase">
-            <p>"O que ama a correção ama o conhecimento,
-                mas o que aborrece a repreensão é um bruto."" <br>
-               <strong> Provérbios 12:1 </strong></p>
-        </div>
-        <ul>
-            <a href="#sob"><li>Sobre mim</li></a>
-            <a href="#pro"><li>Projetos</li></a>
-            <a href="#redes"><li>Redes Sociais</li></a>
-        </ul>
-    </header>
-    <div id="nome">
-        <h2>Edielson costa</h2>
-    </div>
-    <main>
-        <section class="sobre" id="sob">
-            <div class="about">
-                <h1>Sobre mim</h1>
-                <p>Tenho 21 anos, sou de João Pessoa - PB e estou começando minha jornada para me tornar um Desenvolvedor.</p>
+    <section id="person">
+        <div class="person-content">
+            <div class="person-name">
+                <h1>Olá, <span></span></h1>
+                <h1>Meu nome é <span></span></h1>
+                <h1>Edielson Costa! <span></span></h1>
             </div>
-            <div class="about">
-                <h3>O que estou aprendendo? </h3>
-                <p>Estou Cursando o bacharelado de ciência da computação pela universidade Unipe - Cruzeiro do Sul</p>
-                <p>Também estou fazendo um curso livre pela Ebac de desenvolvedor fullstack, citarei abaixo linguagens e tecnologias que estou aprendendo e que irei aprender.</p>
-            </div>
-            <div class="about">
-                <h3>Tecnologias</h3>
-                <ul>
-                    <li>HTML5, CSS3 e JS</li>
-                    <li>jQuery, React, VueJS</li>
-                    <li>Bootstrap</li>
-                    <li>TypeScript</li>
-                    <li>Automação de tarefas com Gulp e Grunt</li>
-                </ul>
-            </div>
-        </section>
-        <section class="Projetos">
-            <h1 id="pro">Projetos</h1>
-            <ul>
-                <li><p>Cópia da tela inicial da Netflix</p></li>
-                <li><p>Tela inicial Site de Loja de Games</p></li>
-                <li><p>Site de noticias</p></li>
-            </ul>
-        </section>
-    </main>
-    <form action="">
-        <h1>Formulário</h1>
-        <div class="formulario">
-            <input type="text" placeholder="seu nome" required>
-            <input type="tel" placeholder="seu número">
-            <input type="email" placeholder="seu e-mail" required>
-            <input type="password" placeholder="sua senha" required>
-            <textarea name="O que podemos melhorar? " id="" cols="30" rows="10" placeholder="O que podemos melhorar? "></textarea>
-            <button type="submit">Enviar</button>
-        </div>
-    </form>
 
-    <div class="flex">
-        <footer id="redes">
-            <a href="https://www.instagram.com/edielson_costa12/" target="_blank"><img src="./imagens/instagram.png" alt="Meu instagram"></a>
-            <a href="https://web.whatsapp.com/"><img src="./imagens/phone.png" alt="Meu whats"></a>
-            <a href="https://github.com/edielsoncost"><img src="./imagens/github.png" alt="Meu github"></a>
-        </footer>
-        <div id="mex">
-            <a href="https://www.instagram.com/edielson_costa12/">Instagram</a>
-            <a href="https://web.whatsapp.com/">whatsapp</a>
-            <a href="https://github.com/edielsoncost">Github</a>
+            <div class="stacks-content">
+                <h3>techs: </h3>
+
+                <div class="stacks">
+                    <ul>
+                        <li>
+                            <div data="HTML5">
+                                <img src="./imagensSVG/html.svg" alt="HTML5">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div data="CSS3">     
+                                <img src="./imagensSVG/css.svg" alt="CSS3">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div data="JS">
+                                <img src="./imagensSVG/js.svg" alt="JAVASCRIPT">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div data="NODE">
+                                <img src="./imagensSVG/node.svg" alt="NODEJS">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div data="REACT">
+                                <img src="./imagensSVG/react.svg" alt="REACTJS">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div data="JAVA">
+                                <img src="./imagensSVG/java.svg" alt="JAVA">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div data="SQL">
+                                <img src="./imagensSVG/sql.svg" alt="BANCO DE DADOS SQL">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
+
+        <div class="person-background">
+            <div class="wrapper-profile.photo">
+                <img class="profile-photo" src="./imagensJPG/eu.jpg.jpeg" alt="">
+            </div>
+
+            <div class="links">
+                <img src="./imagensSVG/logo-github.svg" alt="icon-github">
+                <img src="./imagensSVG/logo-insta.svg" alt="icon-insta">
+                <img src="./imagensSVG/logo-linkedin.svg" alt="icon-linkedin">
+            </div>
+        </div>
+
+    </section>
+
 </body>
 </html>
